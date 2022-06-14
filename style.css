@@ -1,0 +1,49 @@
+/* CSS Reset */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	/*min-height: 800vh;*/
+}
+.intro {
+	margin-top: 40vh;
+	font-family: "Raleway";
+}
+#nav{
+	position: sticky ;
+	width: 100%;
+	top: 0;
+}
+.fs-50 {
+	font-size: 50px;
+}
+.home {
+	color: #c2195b;;
+}
+.back-video {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+.navbar {
+
+	background-color: rgb(28, 36, 47);
+	border-bottom: 2px solid rgb(19, 186, 194) ;
+
+}
+
+@media (min-apect-ratio: 16/9){
+	.back-video{
+		width: 100%;
+		height: auto;
+	}
+}
+@media (max-apect-ratio: 16/9){
+	.back-video{
+		width: auto;
+		height: 100%;
+	}	
+}

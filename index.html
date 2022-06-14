@@ -10,53 +10,235 @@
 
     <title>Kristian Caseres</title>
 </head>
-<body class="text-center">
-    
+<body class="text-center " data-spy="scroll" data-target="#nav" data-offset="0">
+
+
+
+    <video autoplay loop muted plays-inline class="back-video image-fluid max-vh-104">
+        <source src="./images/lived.mp4" type="video/mp4">
+        </video>
+        <!-- Navbar End -->
+        <div class="container border-white">
+            <div class="intro  offset-md-3 col-sm-12 col-md-6 justify-content-center align-items-center text-white">
+                <h1>Hello, I'm <a class="name text-decoration-none" href="#aboutme">Kristian Caseres</a>.</h1>
+                <h1>I'm an aspiring web developer</h1>
+                <button class="learn-button border border-white text-white"><a href="#aboutme" class="text-white text-decoration-none">Learn more</a></button>
+            </div>
+        </div>
+
 
         <!-- Navbar Start-->
         <nav id="nav" class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href="#">Home</a>
+            <a class="navbar-brand pl-3" href="#">Home</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto">
+                <ul class="nav nav-pills navbar-nav ml-auto pr-5">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#aboutme">About Me <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Tools</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#contacts">Contacts</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <video autoplay loop muted plays-inline class="back-video image-fluid max-vh-100">
-        <source src="./images/lived.mp4" type="video/mp4">
-        </video>
-        <!-- Navbar End -->
-        <div>
-        <div class="intro container col-sm-12 col-md-8 col-lg-6 justify-content-center align-items-center mx-auto text-white">
-            <h1>Hello, I'm Kristian Caseres. I'm an aspiring web developer</h1>
-            <h5 class="col-sm-4 col-md-4 border border-white mx-auto">Learn more</h5>
-        </div>
-        </div>
 
-        
+
         <!-- Content Start -->
-        <div class="container-fluid bg-dark">
+        <div  class="container">
+            <h1 id="aboutme" class="mx-auto pt-5 ul mb-5"><strong>ABOUT</strong></h1>
             <div>
-                Content
+                <div class="row">
+
+                    <div class="col-sm-6 col-md-3">
+                        <img src="./images/Fast2.png" class="img-fluid">
+                        <h3>Fast</h3>
+                        <h5>Fast load times and lag free interaction, my highest priority.</h5>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 mt-md-0">
+                        <img src="./images/Responsive2.png" class="img-fluid">
+                        <h3>Responsive</h3>
+                        <h5>My layouts will work on any device, big or small.</h5>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 mt-md-0">
+                        <img src="./images/Intuitive2.png" class="img-fluid">
+                        <h3>Innovative</h3>
+                        <h5>Strong preference for easy to use, innovative UX/UI.</h5>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 mt-md-0">
+                        <img src="./images/Dynamic2.png" class="img-fluid">
+                        <h3>Dynamic</h3>
+                        <h5>Websites don't have to be static, I love making pages come to life.</h5>
+                    </div>
+
+
+                </div>
             </div>
         </div>
 
         <!-- Content End -->
 
+        <div class="container my-5 ">
+
+            <div class="row pt-5">
+                <div class="col-sm-12 col-md-6">
+                    <img src="./images/me2.jpg" class="img-fluid rounded-circle">                       
+                </div>
+
+                <div class="col-sm-12 col-md-6 mt-md-0">
+                    <h2 class="mb-5 mt-5">Who's this guy?</h2>
+                    <h5 class="text-left">Kristian Caseres is someone who is highly passionate in coding. He is both an independent and cooperative individual. He does things independently and come up with solutions in his own space. Also, he is good with teaming up with others by teaching what he learned and contributes to the solutions needed for the problem at hand. He thinks that deciding to learn web development is one of his greatest steps since he is an individual who is always aiming to be the best and looks forward into learning, adapting, and growing.</h5>
+                </div>
+
+            </div>
+        </div>
+        <div id="projects" class="container-fluid">
+            <h1  class="mx-auto pt-5 ul mb-5 "><strong>PROJECTS</strong></h1>
+            <div class="container-fluid bg-dark">    
+                <div class="container py-5">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <h4 class="pb-3 text-white"><a href="#" class="text-white">CAPSTONE 1</a></h4>
+                                <img src="./images/Capstone-proj.jpg"  class="d-block w-100 h-100" alt="..." >                            
+                            </div>
+                            <div class="carousel-item">
+                                <h4 class="pb-3 text-white">CAPSTONE 2</h4>
+                                <img src="./images/underconstruction.jpg" class="d-block w-100 h-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <h4 class="pb-3 text-white">CAPSTONE 3</h4>
+                                <img src="./images/underconstruction.jpg" class="d-block w-100 h-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pt-5">
+
+                <!-- Core Tools Section Start -->
+                <h2>Core Tools</h2>
+
+                <div class="container-fluid">
+                    <div>
+                        <img width="150" src="images/logo-html5.png"/>
+                    </div>
+                    <div class=" d-flex flex-row justify-content-center align-items-md-center">
+                        <img width="150" src="images/logo-css3.png"/>
+                        <img width="150" src="images/logo-javascript.png"/>
+                    </div>
+                </div>
+                <!-- Core Tools Section End -->
+                
+                <!-- Other Tools Section Start -->
+                <h2 class="mt-3">Other Tools</h2>
+
+                <div  class="d-flex flex-md-column justify-content-center align-items-md-center">
+                    <div class="d-flex flex-column flex-md-row">
+                        <img width="150" src="images/logo-mongodb.png"/ class="img-fluid">
+                        <img width="150" src="images/logo-nodejs.png"/ class="img-fluid">
+                        <img width="150" src="images/logo-expressjs.png"/ class="img-fluid">
+                        <img width="150" src="images/logo-react.png"/ class="img-fluid">
+                        <img width="150" src="images/logo-heroku.png"/class="img-fluid">
+                    </div>
+                    <div class="mt-3 d-flex flex-column flex-md-row">
+                        <img width="150" src="images/logo-git.png"/class="img-fluid">
+                        <img width="150" src="images/logo-sublime-text-3.png"/class="img-fluid">
+                        <img width="150" src="images/logo-postman.png"/class="img-fluid">
+                        <img width="150" src="images/logo-gitlab-ci-cd.png"/class="img-fluid">
+                    </div>
+                </div>
+                <!-- Other Tools Section End -->
+                
+            </div>
+            <!-- Tools Section End -->
+
+        <div id="contacts" class="container-fluid backgrounddark">
+            <h1 class="mx-auto pt-5 ull my-5 text-white "><strong>CONTACT</strong></h1>
+            <h4 class="pb-3 work">Have a question or want to work together?</h4>
+            <div> 
+                <div class="container">
+                    <form>
+                        <div class="row">
+                            <div class="offset-sm-2 col-12 col-sm-4 pb-3">
+                                <input type="text" class="form-control bg-dark text-white" placeholder="Name">
+                            </div>                
+                            <div class="col-12 col-sm-4 pb-3">
+                                <input type="email" class="form-control bg-dark text-white" placeholder="Email">
+                            </div> 
+                            <div class="offset-2 col-8">
+                                <textarea type="text" class="form-control bg-dark text-white " rows="5" placeholder="Message:"></textarea>
+                            </div>
+                            <div class="offset-1 offset-sm-4 col-10 pb-5 pt-2">
+                                <button type="button" class="btn btn-dark mb-2 px-4 mt-1 "data-toggle="modal" data-target="#thankyou-modal">SUBMIT</button>
+                            </div>       
+                        </div>
+                    </form> 
+                </div> 
+            </div>
+        </div>
+
+        <div class="modal fade text-dark" id="thankyou-modal" tabindex="-1" aria-labelledby="thankyou-modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Thank you for contacting us!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Message Successfully Sent
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container-fluid bg-footer text-center py-3">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="offset-lg-4 offset-md-2 col-lg-1 col-md-2 col-3"><a target=”_blank” href="https://www.linkedin.com/in/kristian-caseres-792191242/"><img src="https://icons.iconarchive.com/icons/dakirby309/windows-8-metro/48/Web-Linked-in-alt-Metro-icon.png"/ class="img-fluid"></a></div>
+                        <div class="col-lg-1 col-md-2 col-3"><a target=”_blank” href="https://twitter.com/Kristia37518718"><img  src="https://icons.iconarchive.com/icons/bokehlicia/captiva/48/web-twitter-2-icon.png"/ class="img-fluid"></a></div>
+                        <div class="col-lg-1 col-md-2 col-3"><a target=”_blank” href="https://www.facebook.com/kristiangerhard.caseres/"> <img  src="https://icons.iconarchive.com/icons/yootheme/social-bookmark/48/social-facebook-button-blue-icon.png"/ class="img-fluid"></a></div>
+                        <div class="col-lg-1 col-md-2 col-3"><a target=”_blank” href="https://join.skype.com/invite/XKzpUDTw9ejU"> <img  src="https://icons.iconarchive.com/icons/franksouza183/fs/48/Apps-skype-icon.png"/ class="img-fluid"></a></div>                 
+                    </div>
+             </div>
+             <div><p class="text-white ">Copyright © 2022 Kristian Caseres All rights reserved.</p></div>
+             
+            </footer>
 
 
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-    </body>
-    </html>
+
+
+
+            <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+        </body>
+        </html>

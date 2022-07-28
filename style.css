@@ -78,3 +78,52 @@ h1 {
 	}	
 }
 
+@media (min-width: 320px) { 
+  .images{
+    height: 100px;
+    width: 150px;
+  } 
+}
+
+@media (min-width: 375px) { 
+  .images{
+    min-height: 140px;
+    width: 150px;
+  } 
+}
+
+
+@media (min-width: 576px) { 
+  .images{
+    height: 100px;
+    width: 150px;
+  }
+  .paddingLeft {
+  margin-left: 30%;
+  } 
+}
+
+
+@media (min-width: 768px) { 
+  .images{
+    height: 200px;
+    width: 250px;
+    } 
+}
+
+
+@media (min-width: 992px) { 
+  .images{
+    height: 200px;
+    width: 250px;
+    } 
+}
+
+
+@media (min-width: 1200px) { 
+  .images{
+    height: 200px;
+    width: 250px;
+    } 
+}
+
